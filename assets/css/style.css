@@ -1,0 +1,116 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+.logo{
+    max-width: 20%;
+    height: auto;
+}
+.button{
+    border-radius: 25%;
+    padding: 1%;
+    margin: auto;
+}
+#hero-section {
+    height: 600px; /* Establecer la altura del contenedor del carousel */
+  }
+
+  #hero-section .carousel-item img {
+    height: 600px; /* Establecer la altura de las imágenes */
+    object-fit: cover; /* Asegurarse de que las imágenes se recorten para llenar el área */
+  }
+  .carousel-caption {
+    bottom: 20%; /* Ajustar el valor para mover el contenido verticalmente */
+  }
+  
+  .carousel-caption h2 {
+    font-size: 3rem; /* Puedes ajustar el tamaño de la fuente si lo deseas */
+  } 
+#consultoria-ti{
+    background-image: url(../img/1004.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#big-data{
+    background-image: url(../img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-busines-global-network-futuristic-technology-background-ai-generative.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#desarrollo-software{
+    background-image: url(../img/focus-software-developer-hands-typing-source-code-keyboard-while-looking-computer-screens-with-programming-interface-programer-sitting-desk-with-clipboard-writing-algorithm.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#inteligencia-artificial{
+    background-image: url(../img/16396113_rm373batch5-18.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#servicios-cognitivos{
+    background-image: url(../img/124672.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#servicios-dba{
+    background-image: url(../img/data-base-background.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+#outsourcing-ti{
+    background-image: url(../img/group-multinational-busy-people-working-office.jpg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15% 5%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Ajusta el ancho para que no cubran las cards */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo para mejor visibilidad */
+    width: 30px; /* Asegúrate de que el tamaño sea adecuado */
+    height: 30px;
+    border-radius: 50%; /* Opcional: forma circular */
+}
+.carousel-control-prev {
+    left: -2%; /* Ajusta este valor según el ancho del contenedor */
+}
+
+.carousel-control-next {
+    right: -2%; /* Ajusta este valor según el ancho del contenedor */
+}
+.client-logo {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    max-height: 50px;       /* Altura máxima uniforme */
+    max-width: 100%;        /* Para evitar que se pasen del ancho del contenedor */
+    object-fit: contain;    /* Asegura que no se deformen */
+    display: block;
+    margin: 0 auto;         /* Centra horizontalmente */
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+}
+#cta-home{
+    background-image: url(../img/3409297.jpg);
+    height: 250px;
+}
+#hero-service{
+    background-image: url(../img/3409297.jpg);
+}
+#cta-servicios{
+    background-image: url(../img/3409297.jpg);
+    height: 300px;
+}
+/*Blog*/
+.cita{
+    color: blue;
+}
